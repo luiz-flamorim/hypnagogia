@@ -1,4 +1,4 @@
-let ws = new WebSocket(webSocketurl);
+const ws = new WebSocket(WEBSOCKET_URL);
 
 let nightmareBox = document.querySelector("#nightmare");
 nightmareBox.addEventListener(

@@ -13,4 +13,4 @@ This lightweight web client sends audience-submitted prompts (nightmares) to a W
 The connection to the WebSocket server is initiated here:
 
 ```javascript
-let ws = new WebSocket();
+const ws = new WebSocket(WEBSOCKET_URL);
